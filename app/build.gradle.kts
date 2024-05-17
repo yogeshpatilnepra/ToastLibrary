@@ -43,4 +43,6 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(project(":ToastClass"))
+//    implementation("com.github.yogeshpatilnepra:ToastLibrary:1.0.0")
+
 }

@@ -45,6 +45,9 @@ publishing {
             afterEvaluate {
                 from(components["release"])
             }
+            groupId = "com.mytoastlibrary.common"
+            artifactId = "toast"
+            version = "1.0.1"
         }
     }
 }
