@@ -43,10 +43,10 @@ publishing {
     publications {
         register<MavenPublication>("release") {
             afterEvaluate {
-                from(components["release"])
                 groupId = "com.mytoastlibrary.common"
                 artifactId = "toast"
-                version = "1.0.2"
+                version = "1.0.3"
+                from(components["release"])
             }
         }
     }
